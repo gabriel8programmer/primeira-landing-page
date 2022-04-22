@@ -1,0 +1,154 @@
+body {
+	padding:0px;
+	margin:0px;
+	background:black;
+	color:white;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/*classes auxiliares*/
+.flex {
+	display:flex;
+}
+
+.Quebra {
+	display:block;
+}
+
+/*formatação para a tag main*/
+main {
+	background-color: rgb(221, 221, 221);
+	color: black;
+	width:100%;
+	height:calc(220px * 2 + 100px);
+	margin-top:100px;
+	align-content: center;
+}
+
+/*formatação para o cabecalho*/
+header {
+	align-items: center;
+	margin:20px 0;
+	padding-left:20px;
+}
+
+header img {
+	width:40px;
+	height:40px;
+}
+
+header h1 {
+	color: rgb(7, 102, 88);
+	font-size: 12pt;
+	font-weight: 500;
+	text-shadow: 1px 1px 1px rgb(19, 51, 42);
+	margin-right: 5px;
+}
+
+hgroup#titulos {
+	top:2px;
+	right:0px;
+	position:relative;
+}
+
+hgroup#titulos h4{
+	color:rgb(55, 141, 120);
+	line-height: 0.2;
+	font-size: 4pt;
+	text-transform: uppercase;
+	
+}
+
+/*formatação para a o conteudo de cima pos cabeçalho*/
+#conteudo-de-cima {
+	padding:20px;
+	background-color: rgb(0, 179, 125);
+	color: white;
+	width:780px;
+	height:220px;
+	align-items: center;
+}
+
+#conteudo-de-cima div.texto {
+	width:40%;
+}
+
+#conteudo-de-cima div.texto h1{
+	font-size: 21pt; 
+}
+
+#conteudo-de-cima div.texto p{
+	font-size: 14pt;
+	font-weight: 100;
+}
+
+#conteudo-de-cima div.img {
+	width:50%;
+}
+
+div.img img{
+	padding:20px 0 0 35px;
+	width:300px;
+	height:250px;
+}
+
+/*formatção para o conteudo de baixo pos cabeçalho*/
+#conteudo-de-baixo {
+	padding:20px;
+	width:780px;
+	height:220px;
+	align-content: center;
+}
+
+#conteudo-de-baixo div.texto{
+	width:50%;
+	color:rgb(151, 151, 151);
+	font-size: 10pt;
+	margin-right:20px;
+}
+
+#conteudo-de-baixo div.texto h2{
+	color:rgb(102, 102, 102);
+	font-size: 12pt;
+	font-weight: 400;
+}
+
+/*formatação para o formulário*/
+#formulario {
+	background-color: rgb(2, 66, 56);
+	color:white;
+	padding:20px;
+	width:calc(100% - 780px);
+}
+
+#formulario h1 {
+	font-size: 15px;
+	font-weight: 600;
+	margin-bottom: 15px;
+}
+
+#formulario span{
+	margin-top:10px;
+	font-size: 10pt;
+}
+
+#formulario input {
+	width: 100%;
+	line-height: 1.5;
+}
+
+#formulario button {
+	margin:20px auto;
+	padding:10px 0;
+	width: calc(100% + 10px);
+	background-color: rgb(209, 153, 0);
+	color: white;
+	font-weight: 900;
+	border-radius: 8px;
+	transition: 1s;
+}
+
+#formulario button:hover {
+	background:rgb(180, 102, 1);
+	box-shadow: 1px 1px 10px rgb(0, 43, 36);
+}
